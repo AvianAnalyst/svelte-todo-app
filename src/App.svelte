@@ -2,5 +2,11 @@
 	import Todos from './Todos.svelte'
 </script>
 
-<h1><a href="https://github.com/AvianAnalyst/svelte-todo-app">Source Code (GitHub)</a></h1>
+<style>
+	.center{
+		text-align: center;
+	}
+</style>
+
+<h1 class="center"><a href="https://github.com/AvianAnalyst/svelte-todo-app">Source Code (GitHub)</a></h1>
 <Todos />
